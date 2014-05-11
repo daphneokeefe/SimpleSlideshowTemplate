@@ -1,0 +1,42 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24pt;
+}
+#content {
+	clear: both;
+	width:1100px;
+	margin: 0 auto;
+}
+iframe {
+	border: 0;
+	height: 700px;
+	width: 1100px;
+}
+.slide {
+	color: #fff;
+	padding: 2em;
+	height: 475px;
+}
+.slide li {
+	padding: .5em;
+}
+ul#navigation {
+	float: left;
+	font-size: 16pt;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+ul#navigation li { 
+	display: inline; 
+	padding: 1em;
+}
+a {
+	background-color: #fff;
+	color: #fff;
+	text-decoration: none;
+	float: left;			 
+}
+a:hover {
+	color: #ddd;			 
+}

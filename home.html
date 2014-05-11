@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link href='slideshow.css' rel='stylesheet' >
+		<script>
+			function showPage(pageName) {
+				var container = document.getElementById('pageContent');
+				container.src = pageName;
+			}
+		</script>
+	</head>
+	<body>
+		<div id="content">
+			<ul id="navigation">
+				<li>
+					<a href="#" onclick="showPage('one.html');">one</a>
+				</li>
+				<li>
+					<a href="#" onclick="showPage('two.html');">two</a>
+				</li>
+				<li>
+					<a href="#" onclick="showPage('three.html');">three</a>
+				</li>
+			</ul>
+			<iframe id="pageContent" ></iframe>
+		</div>
+	</body>
+</html>
